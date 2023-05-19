@@ -3,4 +3,11 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+
+celo="https://celo-alfajores.infura.io/v3/899842037c6f4931925702688cf75213"
+
+
+[etherscan]
+celo = { key = "${CELO_API_KEY}" }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
